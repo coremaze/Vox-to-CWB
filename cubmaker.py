@@ -7,7 +7,7 @@ import argparse
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser = argparse.ArgumentParser(description='Convert vox to cub')
     parser.add_argument('input', type=str, help='vox file to convert')
     parser.add_argument('output', type=str, help='cub file to create')
     args = parser.parse_args()
